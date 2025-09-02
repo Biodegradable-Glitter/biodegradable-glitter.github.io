@@ -1,0 +1,83 @@
+div.header {
+    height: 95vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h1.title {
+    width: 100%;
+    text-align: center;
+    padding-top: 45vh;
+    font-family: "Nosifer", sans-serif;
+    font-size: 4rem;
+    font-weight: bolder;
+}
+
+h2.subtitle {
+    width: 100%;
+    text-align: center;
+}
+
+h4 {
+    text-decoration: none;
+}
+
+.biodegradable-glitter {
+    font-family: "Nosifer", sans-serif;
+}
+
+.goofy-goobers {
+    font-family: "Barrio", system-ui;
+}
+
+img, video {
+    width: 100%;
+}
+
+img.card-img-top {
+    aspect-ratio: 2/3;
+    object-fit: cover;
+    object-position: center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    transition: 200ms ease-out;
+}
+
+img.card-img-top:hover {
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+div.footer {
+    min-height: 35vh;
+    margin-top: 8vh;
+    padding-top: 4vh;
+    padding-bottom: 3vh;
+}
+
+.dark {
+    background-color: #111111;
+    color: #f0f0f0;
+}
+
+i.bi {
+    font-size: 3em;
+    padding-right: 10px;
+}
+
+i.bi-spotify:hover {
+    color: #65d46e;
+}
+
+i.bi-instagram:hover {
+    color: #de2c6c;
+}
+
+i.bi-linkedin:hover {
+    color: #2d64bc;
+}
+
+a.icon {
+    color: #f0f0f0;
+    text-decoration: none;
+}
